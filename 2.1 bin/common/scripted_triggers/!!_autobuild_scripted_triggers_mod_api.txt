@@ -1,8 +1,0 @@
-#
-
-sth_trigger_autobuild_tile_has_strategic_res = {
-	always = no
-}
-autobuild_trigger_tile_has_strategic_res_mod_api = {
-	always = no
-}
