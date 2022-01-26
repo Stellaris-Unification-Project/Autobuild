@@ -465,7 +465,7 @@ fleet_event = {
 									# 		}
 									# 		if = {
 									# 			limit = {
-									# 				has_swapped_tradition = tr_purity_the_chosen
+									# 				has_active_tradition = tr_purity_the_chosen
 									# 			}
 									# 			multiply_variable = {
 									# 				which = autobuild_fleet_outpost_cost

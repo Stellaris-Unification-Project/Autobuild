@@ -580,10 +580,8 @@ country_event = {
 	option = {
 		name = autobuild_building_autochthon_monument_on
 		trigger = {
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
-			}
-			not = {
 				has_country_flag = autobuild_building_autochthon_monument
 			}
 		}
@@ -635,10 +633,8 @@ country_event = {
 	option = {
 		name = autobuild_building_clone_vats_on
 		trigger = {
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
-			}
-			not = {
 				has_country_flag = autobuild_building_clone_vats
 			}
 		}
@@ -690,10 +686,8 @@ country_event = {
 	option = {
 		name = autobuild_building_slave_processing_on
 		trigger = {
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
-			}
-			not = {
 				has_country_flag = autobuild_building_slave_processing
 			}
 		}
@@ -719,10 +713,8 @@ country_event = {
 	option = {
 		name = autobuild_building_clinic_on
 		trigger = {
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
-			}
-			not = {
 				has_country_flag = autobuild_building_clinic
 			}
 		}
@@ -748,10 +740,8 @@ country_event = {
 	option = {
 		name = autobuild_building_military_academy_on
 		trigger = {
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
-			}
-			not = {
 				has_country_flag = autobuild_building_military_academy
 			}
 		}

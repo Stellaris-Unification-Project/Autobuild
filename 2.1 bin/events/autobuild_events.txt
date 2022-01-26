@@ -856,7 +856,7 @@ planet_event = {
 			autobuild_trigger_cost = yes
 		}
 		not = {
-			any_pop = {
+			any_owned_pop = {
 				is_robot_pop = yes
 				is_growing = yes
 			}
@@ -1312,7 +1312,7 @@ planet_event = {
 						and = {
 							has_building = building_slave_processing
 							root = {
-								count_pops = {
+								count_owned_pop = {
 									limit = {
 										is_enslaved = yes
 									}
@@ -1375,7 +1375,7 @@ planet_event = {
 						and = {
 							has_building = building_slave_processing
 							root = {
-								count_pops = {
+								count_owned_pop = {
 									limit = {
 										is_enslaved = yes
 									}
@@ -2145,7 +2145,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		every_planet = {
+		every_system_planet = {
 			autobuild_effect_clear_planet_modifiers = yes
 		}
 		every_owned_fleet = {
@@ -2192,7 +2192,7 @@ event = {
 
 	immediate = {
 		set_global_flag = autobuild_installed
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_ai = no
 			}

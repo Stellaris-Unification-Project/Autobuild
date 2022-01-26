@@ -405,7 +405,7 @@ planet_event = {
 			}
 			has_technology = tech_neural_implants
 		}
-		count_pops = {
+		count_owned_pop = {
 			limit = {
 				is_enslaved = yes
 			}
@@ -458,10 +458,7 @@ planet_event = {
 					has_global_flag = autobuild_ai_allowed
 				}
 			}
-			or = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 		}
 	}
 
@@ -800,7 +797,7 @@ planet_event = {
 					has_global_flag = autobuild_ai_allowed
 				}
 			}
-			has_swapped_tradition = tr_synchronicity_hive_mind_synapse
+			has_active_tradition = tr_synchronicity_hive_mind_synapse
 		}
 	}
 
@@ -851,7 +848,7 @@ planet_event = {
 					has_global_flag = autobuild_ai_allowed
 				}
 			}
-			has_swapped_tradition = tr_purity_symbol_purity
+			has_active_tradition = tr_purity_symbol_purity
 		}
 	}
 
@@ -996,7 +993,7 @@ planet_event = {
 					has_global_flag = autobuild_ai_allowed
 				}
 			}
-			has_swapped_tradition = tr_synchronicity_cyber_comms
+			has_active_tradition = tr_synchronicity_cyber_comms
 		}
 	}
 
