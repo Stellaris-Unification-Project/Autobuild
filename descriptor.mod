@@ -6,5 +6,5 @@ tags={
 }
 name="AutoBuild"
 picture="thumbnail.jpg"
-supported_version="2.7.*"
+supported_version="3.2.2"
 remote_file_id="691008512"
